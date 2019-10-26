@@ -20,9 +20,10 @@ class Dog
  end
  end
  
- def self.save
-   
- end 
+ def save
+@@all << name
+return "i worked"
+end
 
    
 def self.clear_all

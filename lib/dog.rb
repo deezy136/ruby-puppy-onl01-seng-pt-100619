@@ -21,7 +21,7 @@ class Dog
  end
  
  def save
-@@all << name
+@@all << self
 return "i worked"
 end
 

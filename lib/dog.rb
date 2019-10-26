@@ -10,7 +10,7 @@ class Dog
   end 
  
  
-  def self.all 
+  def all 
     p @@all
   end  
   

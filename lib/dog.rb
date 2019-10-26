@@ -6,6 +6,7 @@ class Dog
     @name = name
     @@all << self
     @dog = self 
+    save
   end 
  
  
